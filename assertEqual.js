@@ -7,10 +7,10 @@ const assertEqual = function(actual, expected) {
     // Assertion Passed: [actual] === [expected]
     // Assertion Passed: apple === apple
     // Assertion Passed: 1 === 1
-    console.log("✅✅✅ Assertion Passed: " + actual + " === " + expected);
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
     // This happens if item 1 does not equal item 2
-    console.log("🛑🛑🛑 Assertion Failed: " + actual + " !== " + expected);
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 
